@@ -1,0 +1,29 @@
+{
+  "name": "odev-1",
+  "version": "1.0.0",
+  "description": "\"Kodluyoruz EarlyBird Front-end Bootcamp'i Ödev-1",
+  "main": "index.js",
+  "scripts": {
+		"start": "node dist/app.js",
+		"dev": "nodemon src/app.js",
+		"build": "sucrase ./src -d ./dist --transforms imports"
+	},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
